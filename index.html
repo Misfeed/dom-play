@@ -7,32 +7,37 @@
   <meta name="viewport" content="width=device-width" />
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="css/nav.css" />
+
+
  </head>
  <body>
      <header>
      <h1>DOM Play</h1>
         <nav class="topnav" id="myTopnav">
             <a href="index.html" class="active">Home</a>
-            <a href="#" target="_blank">Name of project goes here</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </nav>
      </header>
      
    <main class="wrapper">
-        <p><span onclick="highlight(this);" class="chandler">Chandler: Ohh. Mmm.</span></p>
-        <p><span class ="rachel">Rachel: (Comes in the front door and walks towards the kitchen.) Hi.</span></p>
-        <p><span class="chandler">Chandler: Hey, you have got to try this cheesecake.</span></p>
-        <p><span class ="rachel">Rachel: Oh, y’know I'm not that much of a sweet tooth. I—(Chandler puts a forkful of the cheesecake in her mouth.)—Wow. My God, so creamy. Oh my God, this is the best cheesecake I have ever had. Where did you get this? (She reaches over to look at the label on the box.)</span></p>
-        <p><span class="chandler">Chandler: (nervously) It was at the front door. When I got home. Somebody sent it to us.</span></p>
-        <p><span class ="rachel">Rachel: Chandler, this is not addressed to you. This is addressed to Mrs. Braverman downstairs. (Gasping) Thief.</span></p>
-        <p><span class="chandler">Chandler: I—no! I didn't read the box before I opened it. And you can't return a box after you've opened the box.</span></p>
-        <p><span class ="rachel">Rachel: Why, why not?</span></p>
-        <p><span class="chandler">Chandler: Because it's too delicious.</span></p>
-        <p><span class ="rachel">Rachel: Chandler, you stole this cheesecake. That is wrong.</span></p>
-        <p><span class="chandler">Chandler: No-no-no! It is going to be okay, because Mrs. Braverman is gonna send away for a free one and that way we all win! The only losers are the big cheesecake conglomerate, (Reading the label) Momma’s Little Bakery. (Pause) I feel terrible, I’m a horrible, horrible, horrible person.</span></p>
-        <p><span class ="rachel">Rachel: (taking a bite) Oh, I’m sorry what?</span></p>
+        <div id="friends"><
+            <p><span data-actor="chandler">Chandler: Ohh. Mmm.</span></p>
+            <p><span data-actor ="rachel">Rachel: (Comes in the front door and walks towards the kitchen.) Hi.</span></p>
+            <p><span data-actor="chandler">Chandler: Hey, you have got to try this cheesecake.</span></p>
+            <p><span data-actor ="rachel">Rachel: Oh, y’know I'm not that much of a sweet tooth. I—(Chandler puts a forkful of the cheesecake in her mouth.)—Wow. My God, so creamy. Oh my God, this is the best cheesecake I have ever had. Where did you get this? (She reaches over to look at the label on the box.)</span></p>
+            <p><span data-actor="chandler">Chandler: (nervously) It was at the front door. When I got home. Somebody sent it to us.</span></p>
+            <p><span data-actor ="rachel">Rachel: Chandler, this is not addressed to you. This is addressed to Mrs. Braverman downstairs. (Gasping) Thief.</span></p>
+            <p><span data-actor="chandler">Chandler: I—no! I didn't read the box before I opened it. And you can't return a box after you've opened the box.</span></p>
+            <p><span data-actor ="rachel">Rachel: Why, why not?</span></p>
+            <p><span data-actor="chandler">Chandler: Because it's too delicious.</span></p>
+            <p><span data-actor ="rachel">Rachel: Chandler, you stole this cheesecake. That is wrong.</span></p>
+            <p><span data-actor="chandler">Chandler: No-no-no! It is going to be okay, because Mrs. Braverman is gonna send away for a free one and that way we all win! The only losers are the big cheesecake conglomerate, (Reading the label) Momma’s Little Bakery. (Pause) I feel terrible, I’m a horrible, horrible, horrible person.</span></p>
+            <p><span data-actor ="rachel">Rachel: (taking a bite) Oh, I’m sorry what?</span></p>
+            <p><span data-actor ="joey">Joey: (walks in)What are you guys eating?</span></p>
+        </div>
+    </main>
      <footer>
-      <p><small>&copy; 2021 by 
+      <p><small>&copy; 2023 by 
           Daniella Echevestre, All Rights Reserved ~ 
           <a id="html-checker" href="#">Check HTML</a> ~ 
           <a id="css-checker" href="#">Check CSS</a></small>
